@@ -1,0 +1,8 @@
+# Logs
+*.log
+audit.log
+
+# Node & IDE
+node_modules/
+.DS_Store
+.vscode/
