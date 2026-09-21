@@ -1,0 +1,14 @@
+{
+  "name": "log-ingestion-stream-service",
+  "version": "1.0.0",
+  "description": "Log ingestion engine using TCP/UDP and Node.js Streams",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "stress-test": "node --max-old-space-size=50 server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
