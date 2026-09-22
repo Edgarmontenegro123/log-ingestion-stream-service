@@ -27,7 +27,7 @@ export const createUdpServer = () => {
         packetsInCurrentSecond = 0;
     }, CONFIG.UDP.STATS_INTERVAL_MS);
 
-    // Bind the socket to the configured port
+    // Bind (link) the socket to the configured port
     socket.bind(CONFIG.UDP.PORT);
 
     return socket;

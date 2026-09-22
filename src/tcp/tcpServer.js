@@ -1,7 +1,7 @@
-import net from 'node:net';
-import fs from 'node:fs';
-import readline from 'node:readline';
-import { pipeline } from 'node:stream/promises';
+import net from 'node:net'; // Create TCP server
+import fs from 'node:fs'; // File system for persistence
+import readline from 'node:readline'; // Native interface to solve the framing problem
+import { pipeline } from 'node:stream/promises'; // Promised to chain Streams and control Backpressure without using callbacks
 import { CONFIG } from '../config/constants.js';
 
 /*
